@@ -1,0 +1,1 @@
+/spark2.1/bin/spark-submit --master spark://172.31.1.146:7077 --packages org.mongodb.spark:mongo-spark-connector_2.11:2.0.0 /home/spark_v1.2.py >>/home/log/crontab_info.txt 2>&1
